@@ -1,0 +1,7 @@
+{
+  "locales": [ "en-US", "pt-BR"],
+  "default_locale": "pt-BR",
+  "resources": [
+    "./{{locale}}.ftl"
+  ]
+}
