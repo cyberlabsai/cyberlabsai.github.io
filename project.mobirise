@@ -360,6 +360,7 @@
             "@media (max-width: 600px)": {
               ".img-caption": {
                 "p": {
+                  "white-space": "normal !important",
                   "font-size": "25px !important"
                 }
               }
