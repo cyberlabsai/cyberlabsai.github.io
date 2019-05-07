@@ -285,7 +285,8 @@
             "@media (max-width: 600px)": {
               ".img-caption": {
                 "p": {
-                  "font-size": "25px !important"
+                  "white-space": "normal !important",
+                  "font-size": "20px !important"
                 }
               }
             }
@@ -361,7 +362,7 @@
               ".img-caption": {
                 "p": {
                   "white-space": "normal !important",
-                  "font-size": "25px !important"
+                  "font-size": "20px !important"
                 }
               }
             }

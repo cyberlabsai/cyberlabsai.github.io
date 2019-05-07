@@ -1549,7 +1549,8 @@ body {
 }
 @media (max-width: 600px) {
   .cid-rpyh1EuFy9 .img-caption p {
-    font-size: 25px !important;
+    white-space: normal !important;
+    font-size: 20px !important;
   }
 }
 .cid-rpI772E6DW {
@@ -1608,7 +1609,7 @@ body {
 @media (max-width: 600px) {
   .cid-rpI772E6DW .img-caption p {
     white-space: normal !important;
-    font-size: 25px !important;
+    font-size: 20px !important;
   }
 }
 .cid-rpIC1HI1qQ {
