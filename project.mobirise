@@ -281,6 +281,13 @@
                   "-webkit-flex-basis": "initial !important"
                 }
               }
+            },
+            "@media (max-width: 600px)": {
+              ".img-caption": {
+                "p": {
+                  "font-size": "25px !important"
+                }
+              }
             }
           },
           "_name": "content15",
@@ -347,6 +354,13 @@
                   "flex-basis": "initial !important",
                   "padding": "0 0 2rem 0 !important",
                   "-webkit-flex-basis": "initial !important"
+                }
+              }
+            },
+            "@media (max-width: 600px)": {
+              ".img-caption": {
+                "p": {
+                  "font-size": "25px !important"
                 }
               }
             }

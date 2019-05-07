@@ -1547,6 +1547,11 @@ body {
     -webkit-flex-basis: initial !important;
   }
 }
+@media (max-width: 600px) {
+  .cid-rpyh1EuFy9 .img-caption p {
+    font-size: 25px !important;
+  }
+}
 .cid-rpI772E6DW {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -1598,6 +1603,11 @@ body {
     flex-basis: initial !important;
     padding: 0 0 2rem 0 !important;
     -webkit-flex-basis: initial !important;
+  }
+}
+@media (max-width: 600px) {
+  .cid-rpI772E6DW .img-caption p {
+    font-size: 25px !important;
   }
 }
 .cid-rpIC1HI1qQ {
