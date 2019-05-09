@@ -1,5 +1,5 @@
 <CLSlogan1 "A.I. <b>BOOSTING HUMAN PERFORMANCE</b>">
-<CLSlogan2 "BEAT HUMAN PERFORMANCE">
+<CLSlogan2 "BOOSTING HUMAN PERFORMANCE">
 <IN "InSight Now">
 <INSlogan "Generating Analytics from the physical world">
 <INbutton "Try here!">
