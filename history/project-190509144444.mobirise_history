@@ -58,7 +58,7 @@
     "favicon": "@PROJECT_PATH@/assets/images/logo-128x128.png",
     "noImageResize": "",
     "uniqCompNum": 118,
-    "versionPublish": "4.9.7",
+    "versionPublish": "4.10.0",
     "screenshot": "screenshot.png"
   },
   "pages": {
@@ -68,7 +68,7 @@
         "title": "Cyberlabs",
         "meta_descr": "",
         "header_custom": "<link rel=\"localization\" href=\"./l20n/manifest.json\">\n<meta name=\"defaultLanguage\" content=\"en-US\">\n<meta name=\"availableLanguages\" content=\"en-US\">\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js\"></script>",
-        "footer_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-99384557-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-99384557-1');\n</script>",
+        "footer_custom": "",
         "html_before": ""
       },
       "components": [
