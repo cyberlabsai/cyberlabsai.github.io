@@ -13,3 +13,8 @@
 <CLContact "Get in touch">
 <CLEmail "contact@cyberlabs.ai">
 <CLMenuSolutions "Solutions">
+<CLMenuIN "InSight Now">
+<CLMenu1 "Logistics">
+<CLMenu2 "Facial Recognition">
+<CLMenu3 "Health">
+<CLMenuAbout "About us">
