@@ -12,3 +12,4 @@
 <CLPartners "Nossos Parceiros">
 <CLContact "Entre em contato">
 <CLEmail "contact@cyberlabs.ai">
+<CLMenuSolutions "Soluções">
