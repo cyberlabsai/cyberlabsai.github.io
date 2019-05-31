@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "CyberLabs v2",
-    "currentPage": "FaceRecognition.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -67,7 +67,7 @@
         "title": "Reconhecimento Facial",
         "meta_descr": "Impulsionando a performance humana",
         "header_custom": "<meta property=\"og:title\" content=\"CyberLabs IA\" />\n<meta property=\"og:url\" content=\"https://cyberlabs.ai/FaceRecognition\" />\n<meta property=\"og:description\" content=\"Impulsionando a performance humana\">\n<meta property=\"og:image\" content=\"./assets/images/perfil\">\n<link rel=\"localization\" href=\"./l20n/manifest.json\">\n<meta name=\"defaultLanguage\" content=\"en-US\">\n<meta name=\"availableLanguages\" content=\"en-US\">\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js\"></script>\n<script type=\"text/javascript\">\n  (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement(\"script\")\n  ;r.type=\"text/javascript\"\n  ;r.integrity=\"sha384-d/yhnowERvm+7eCU79T/bYjOiMmq4F11ElWYLmt0ktvYEVgqLDazh4+gW9CKMpYW\"\n  ;r.crossOrigin=\"anonymous\";r.async=true\n  ;r.src=\"https://cdn.amplitude.com/libs/amplitude-5.2.2-min.gz.js\"\n  ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){\n  console.log(\"[Amplitude] Error: could not load SDK\")}}\n  ;var i=t.getElementsByTagName(\"script\")[0];i.parentNode.insertBefore(r,i)\n  ;function s(e,t){e.prototype[t]=function(){\n  this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}\n  var o=function(){this._q=[];return this}\n  ;var a=[\"add\",\"append\",\"clearAll\",\"prepend\",\"set\",\"setOnce\",\"unset\"]\n  ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]\n  ;return this}\n  ;var l=[\"setProductId\",\"setQuantity\",\"setPrice\",\"setRevenueType\",\"setEventProperties\"]\n  ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c\n  ;var d=[\"init\",\"logEvent\",\"logRevenue\",\"setUserId\",\"setUserProperties\",\"setOptOut\",\"setVersionName\",\"setDomain\",\"setDeviceId\",\"setGlobalUserProperties\",\"identify\",\"clearUserProperties\",\"setGroup\",\"logRevenueV2\",\"regenerateDeviceId\",\"groupIdentify\",\"onInit\",\"logEventWithTimestamp\",\"logEventWithGroups\",\"setSessionId\",\"resetSessionId\"]\n  ;function v(e){function t(t){e[t]=function(){\n  e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}\n  for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){\n  e=(!e||e.length===0?\"$default_instance\":e).toLowerCase()\n  ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}\n  ;e.amplitude=n})(window,document);\n\n  amplitude.getInstance().init(\"3d7d0f950a418fecb5120497481d2ee8\", null, {\n    saveEvents: true,\n    includeUtm: true,\n    includeReferrer: true,\n    trackingOptions: {\n       city: true,\n       ip_address: true,\n\n    }\n  });\n</script>",
-        "footer_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script src=\"assets/theme/js/alert.js\"></script>\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-99384557-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-99384557-1');\n</script>\n  <script src=\"assets/theme/js/amplitude.js\"></script>\n\n  <script>\n    function logEvent(ampEventName, ampEventProp) {\n      amplitude.getInstance().logEvent(ampEventName, ampEventProp);\n    }\n    function setUserProp(identifyObj) {\n      amplitude.getInstance().identify(identifyObj);\n    }\n\n    //track homepage views\n    logEvent(\"view face recognition page\");\n\n  </script>",
+        "footer_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script src=\"assets/theme/js/alert.js\"></script>\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-99384557-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-99384557-1');\n</script>\n  <script src=\"assets/theme/js/amplitude.js\"></script>\n\n  <script>\n    function logEvent(ampEventName, ampEventProp) {\n      amplitude.getInstance().logEvent(ampEventName, ampEventProp);\n    }\n    function setUserProp(identifyObj) {\n      amplitude.getInstance().identify(identifyObj);\n    }\n\n    //track page views\n    logEvent(\"view face recognition page\");\n\n  </script>",
         "html_before": "",
         "order": 2
       },
@@ -2993,6 +2993,16 @@
                   "font-size": "20px !important"
                 }
               }
+            },
+            ".zoom": {
+              "-moz-transition": "all 0.3s",
+              "-webkit-transition": "all 0.3s",
+              "transition": "all 0.3s"
+            },
+            ".zoom:hover": {
+              "-moz-transform": "scale(1.1)",
+              "-webkit-transform": "scale(1.1)",
+              "transform": "scale(1.1)"
             }
           },
           "_name": "content15",
@@ -3057,6 +3067,16 @@
             },
             "DIV": {
               "text-align": "left"
+            },
+            ".zoom": {
+              "-moz-transition": "all 0.3s",
+              "-webkit-transition": "all 0.3s",
+              "transition": "all 0.3s"
+            },
+            ".zoom:hover": {
+              "-moz-transform": "scale(1.1)",
+              "-webkit-transform": "scale(1.1)",
+              "transform": "scale(1.1)"
             }
           },
           "_name": "image3",
