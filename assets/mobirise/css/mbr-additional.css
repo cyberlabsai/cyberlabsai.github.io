@@ -1385,13 +1385,33 @@ body {
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
   background-color: #01cbd2;
-  color: #000000;
+  color: #ffffff;
 }
-.jq-selectbox .jq-selectbox__trigger-arrow {
-  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
 }
-.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
   border-top-color: #01cbd2;
+  border-bottom-color: #01cbd2;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #000000 !important;
+  background-color: #01cbd2 !important;
+  box-shadow: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #000000 !important;
+  background: #01cbd2 !important;
+  box-shadow: none !important;
 }
 .cid-rr7C4VLkDY .navbar {
   padding: .5rem 0;
@@ -1804,6 +1824,11 @@ body {
 .cid-rq6hFeNMyL .mbr-text,
 .cid-rq6hFeNMyL .mbr-section-btn {
   color: #ffffff;
+}
+@media (max-width: 600px) {
+  .cid-rq6hFeNMyL .display-1 {
+    font-size: 29px !important;
+  }
 }
 .cid-roAGXnFNob {
   padding-top: 90px;
@@ -3653,6 +3678,11 @@ body {
   font-style: italic;
   letter-spacing: 1rem;
 }
+@media (max-width: 600px) {
+  .cid-rq6gmAecr2 .display-1 {
+    font-size: 27px !important;
+  }
+}
 .cid-rq53g73VZ4 {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -3753,6 +3783,28 @@ body {
   padding-top: 15px;
   padding-bottom: 120px;
 }
+@media (max-width: 1600px) {
+  .cid-rqMb0kCxRj figcaption div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .cid-rqMb0kCxRj .display-2 {
+    font-size: 19px !important;
+    line-height: 1;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .cid-rqMb0kCxRj .display-2 {
+    line-height: 1;
+  }
+}
 .cid-rqMb0kCxRj .image-block {
   margin: auto;
 }
@@ -3763,11 +3815,6 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-rqMb0kCxRj .image-block {
-    width: 100% !important;
-  }
 }
 .cid-rqMb0kCxRj DIV {
   text-align: left;
