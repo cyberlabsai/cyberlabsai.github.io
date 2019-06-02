@@ -1827,8 +1827,12 @@ body {
 }
 @media (max-width: 600px) {
   .cid-rq6hFeNMyL .display-1 {
-    font-size: 29px !important;
+    font-size: 25px !important;
   }
+}
+.cid-rq6hFeNMyL .display-1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.3rem;
 }
 .cid-roAGXnFNob {
   padding-top: 90px;
