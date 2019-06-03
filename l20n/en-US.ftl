@@ -11,7 +11,7 @@
 <CLClients "Our Customers">
 <CLPartners "Our Partners">
 <CLContact "Get in touch">
-<CLEmail "contact@cyberlabs.ai">
+<CLEmail "contato@cyberlabs.ai">
 <CLMenuSolutions "Solutions">
 <CLMenuIN "InSight Now">
 <CLMenu1 "Logistics">
