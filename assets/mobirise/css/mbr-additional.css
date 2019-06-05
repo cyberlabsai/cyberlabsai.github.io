@@ -3783,15 +3783,13 @@ body {
   padding-top: 15px;
   padding-bottom: 120px;
 }
-@media (max-width: 1600px) {
-  .cid-rqMb0kCxRj figcaption div {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-  }
+.cid-rqMb0kCxRj figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
 }
 @media (max-width: 600px) {
   .cid-rqMb0kCxRj .display-2 {
