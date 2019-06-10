@@ -11,7 +11,7 @@ function setAmplitudeEvent(eventName) {
   var clickedLogisticsButton = new amplitude.Identify().set('clicked on logistica button', '1');
   var clickedFacialRecognitionButton = new amplitude.Identify().set('clicked on reconhecimento facial button', '1');
   var clickedHealthButton = new amplitude.Identify().set('clicked on health button', '1');
-  var clickedAboutUsButton = new amplitude.Identify().set('clicked on sobre nós button', '1');
+  var clickedAboutUsButton = new amplitude.Identify().set('clicked on about us button', '1');
   var clickedlinkedinButton = new amplitude.Identify().set('clicked on linkedin button', '1');
   var clickedFacebookButton = new amplitude.Identify().set('clicked on facebook button', '1');
   var clickedInstagramButton = new amplitude.Identify().set('clicked on instagram button', '1');
