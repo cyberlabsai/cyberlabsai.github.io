@@ -18,3 +18,15 @@
 <CLMenu2 "Reconhecimento Facial">
 <CLMenu3 "Saúde">
 <CLMenuAbout "Sobre nós">
+<KeyDescription "Use seu celular para:">
+<KeyDescription1 "Autenticar sua identidade">
+<KeyDescription2 "Verificar presença">
+<KeyDescription3 "Controlar acessos">
+<KeyButtonBetaT "Seja um Beta Tester">
+<KeyFormTitle "Cadastro Beta Tester">
+<KeyFormDescription "Participe do lançamento do app mais esperado do ano">
+<KeyFormThanks "Obrigado por se cadastrar no programa de Beta Tester do Key! Entraremos em contato assim que a sua solicitação for aprovada.">
+<KeyFormName "Nome">
+<KeyFormEmail "Email">
+<KeyFormJob "Cargo/Empresa">
+<KeyFormButton "Enviar">
