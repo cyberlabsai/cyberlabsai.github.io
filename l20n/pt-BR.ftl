@@ -28,6 +28,17 @@
 <FRText3 "Informe seu email para que possamos enviar mais informações sobre I.A. e reconhecimento facial">
 <FRThanks "Obrigado pelo contato, retornaremos o mais breve possível :)">
 <FRButton "Enviar">
+<LTitle "LOGÍSTICA">
+<LSubtitle "Deep Learning e Visão Computacional para a gestão eficiente de recursos">
+<LProduct "Produto">
+<LText1 "A aplicação de Inteligência Artificial no campo de logística potencializa o uso de recursos, minimiza custos e eleva o nível de serviço.">
+<LText2 "As soluções desenvolvidas pelo CyberLabs são capazes de otimizar a alocação de recursos na operação de portos, aeroportos e logística terrestre. Entre os benefícios estão economia de combustível, otimização de equipe, redução de tempo de filas e maior eficiência no atendimento.">
+<LText3 "As soluções estão ativas em portos e aeroportos brasileiros e resolvendo problemas de mobilidade urbana em grandes cidades do país.">
+<LTitle2 "Mais de 40.000 pessoas atingidas todos os dias pelas nossas soluções">
+<LDetails "Mais detalhes?">
+<LText4 "Informe seu email para que possamos enviar mais informações sobre I.A. e reconhecimento facial">
+<LThanks "Obrigado pelo contato, retornaremos o mais breve possível :)">
+<LButton "Enviar">
 
 <KeyDescription "Use seu celular para:">
 <KeyDescription1 "Autenticar sua identidade">

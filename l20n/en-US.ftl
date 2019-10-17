@@ -27,8 +27,18 @@
 <FRDetails "More details?">
 <FRText3 "Enter your email address so that we can send you more information about I.A. and facial recognition">
 <FRThanks "Thanks for the contact, we will return as soon as possible :)">
-<FRButton "Send">
-
+<FRButton "Submit">
+<LTitle "LOGISTICS">
+<LSubtitle "Deep Learning and Computer Vision for Efficient Resource Management">
+<LProduct "Product">
+<LText1 "Applying Artificial Intelligence in the logistics field maximizes resource use, minimizes costs and raises the level of service.">
+<LText2 "Solutions developed by CyberLabs are able to optimize resource allocation in the operation of ports, airports and ground logistics. Benefits include fuel economy, staff optimization, reduced queue times and improved service efficiency." >
+<LText3 "Solutions are active in Brazilian ports and airports and solving urban mobility problems in major cities of the country.">
+<LTitle2 "Over 40,000 people hit our solutions every day">
+<LDetails "More details?">
+<LText4 "Please enter your email address so we can send you more information about I.A. and facial recognition">
+<LThanks "Thanks for the contact, we'll be back as soon as possible :)">
+<LButton "Submit">
 
 <KeyDescription "Use your phone to">
 <KeyDescription1 "Authenticate your identity">
