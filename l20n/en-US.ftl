@@ -24,9 +24,12 @@
 <KeyDescription3 "Control access">
 <KeyButtonBetaT "Be a beta tester">
 <KeyFormTitle "Registration to be Beta Tester">
-<KeyFormDescription "Join the most anticipated app release of the year">
+<KeyFormDescription "Join the Key App release">
 <KeyFormThanks "Thank you for registering for the Key Beta Tester program! We will contact you as soon as your request is approved.">
 <KeyFormName "Name">
 <KeyFormEmail "Email">
 <KeyFormJob "Job / Company">
 <KeyFormButton "Send">
+<KeyFormPhone "Phone">
+<KeyFormAccept "Would you like to receive e-mails from us? *">
+<KeyFormAccepted "yes">

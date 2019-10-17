@@ -24,9 +24,12 @@
 <KeyDescription3 "Controlar acessos">
 <KeyButtonBetaT "Seja um Beta Tester">
 <KeyFormTitle "Cadastro Beta Tester">
-<KeyFormDescription "Participe do lançamento do app mais esperado do ano">
+<KeyFormDescription "Participe do lançamento do Key">
 <KeyFormThanks "Obrigado por se cadastrar no programa de Beta Tester do Key! Entraremos em contato assim que a sua solicitação for aprovada.">
 <KeyFormName "Nome">
 <KeyFormEmail "Email">
 <KeyFormJob "Cargo/Empresa">
 <KeyFormButton "Enviar">
+<KeyFormPhone "Telefone">
+<KeyFormAccept "Deseja receber e-mails nossos? *">
+<KeyFormAccepted "Sim">
