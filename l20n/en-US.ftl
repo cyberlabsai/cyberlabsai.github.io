@@ -18,6 +18,18 @@
 <CLMenu2 "Facial Recognition">
 <CLMenu3 "Health">
 <CLMenuAbout "About us">
+<FRTitle "Facial Recognition">
+<FRSubtitle "Computer Vision opening doors">
+<FRProduct "Product">
+<FRText1 "The purpose of CyberLabs is to develop this technology responsibly and give people the decision-making power to be identified or not by the system, without harming any right to privacy.">
+<FRText2 "Among the applications offered by CyberLabs are <b> access control </b>, <b> point control </b> of employees, <b> restricted area monitoring </b>, <b> identity authentication </b> and an open <b> development toolset (SDK) </b> open to the community.">
+<FRTitle2 "World's first neural network tailored to Brazilian faces">
+<FRDetails "More details?">
+<FRText3 "Enter your email address so that we can send you more information about I.A. and facial recognition">
+<FRThanks "Thanks for the contact, we will return as soon as possible :)">
+<FRButton "Send">
+
+
 <KeyDescription "Use your phone to">
 <KeyDescription1 "Authenticate your identity">
 <KeyDescription2 "Verify presence">
