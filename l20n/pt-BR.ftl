@@ -23,7 +23,7 @@
 <FRProduct "Produto">
 <FRText1 "A proposta do CyberLabs é desenvolver essa tecnologia de maneira responsável e entregar às pessoas o poder de decisão para serem ou não identificadas pelo sistema, sem ferir qualquer direito à privacidade.&nbsp;">
 <FRText2 "Entre as aplicações oferecidas pelo CyberLabs estão <b>controle de acesso</b>, <b>controle de ponto </b>de funcionários, <b>monitoramento de áreas restritas</b>, <b>autenticação de identidade</b>&nbsp;e um conjunto de ferramentas de desenvolvimento <b>(SDK) </b>aberto à comunidade.">
-<FRTitle2 "World's first neural network tailored to Brazilian facesPrimeira rede neural do mundo feita sob medida para rostos brasileiros">
+<FRTitle2 "Primeira rede neural do mundo feita sob medida para rostos brasileiros">
 <FRDetails "Mais detalhes?">
 <FRText3 "Informe seu email para que possamos enviar mais informações sobre I.A. e reconhecimento facial">
 <FRThanks "Obrigado pelo contato, retornaremos o mais breve possível :)">
@@ -36,10 +36,20 @@
 <LText3 "As soluções estão ativas em portos e aeroportos brasileiros e resolvendo problemas de mobilidade urbana em grandes cidades do país.">
 <LTitle2 "Mais de 40.000 pessoas atingidas todos os dias pelas nossas soluções">
 <LDetails "Mais detalhes?">
-<LText4 "Informe seu email para que possamos enviar mais informações sobre I.A. e reconhecimento facial">
+<LText4 "Informe seu email para que possamos enviar mais informações sobre I.A. e logística">
 <LThanks "Obrigado pelo contato, retornaremos o mais breve possível :)">
 <LButton "Enviar">
-
+<STitle "SAÚDE">
+<SSubtitle "Machine Learning para predição de resposta a tratamentos contra doenças raras">
+<SKnowMore "Saiba mais">
+<SText1 "A aplicação de I.A. no setor de saúde permite que pacientes de doenças raras descubram em um menor espaço de tempo o melhor tipo de tratamento para o seu caso específico. Com isso, espera-se aumentar a expectativa de vida do paciente e reduzir os custos de tratamento.&nbsp;">
+<SText2 "A Cyberlabs, em parceria com o Centro de Pesquisa em Neuroendocrinologia do Hospital Universitário Clementina Fraga Filho da UFRJ, construiu um modelo com uso de Machine Learning para prever a resposta ao tratamento de acromegalia de acordo com biomarcadores específicos.">
+<SText3 "A parceria demonstrou a importância do compartilhamento de dados entre os laboratórios de todo o mundo para aumentar o poder preditivo dos modelos de machine learning e potencializar os benefícios para sociedade.">
+<STitle2 "Aumento da expectativa de vida do paciente e redução dos custos de tratamentoWorld's first neural network tailored to Brazilian facesPrimeira rede neural do mundo feita sob medida para rostos brasileirosAumento da expectativa de vida do paciente e redução dos custos de tratamento">
+<SDetails "Mais detalhes?">
+<SText4 "Informe seu email para que possamos enviar mais informações sobre I.A. e saúde">
+<SThanks "Obrigado pelo contato, retornaremos o mais breve possível :)">
+<SButton "Enviar">
 <KeyDescription "Use seu celular para:">
 <KeyDescription1 "Autenticar sua identidade">
 <KeyDescription2 "Verificar presença">

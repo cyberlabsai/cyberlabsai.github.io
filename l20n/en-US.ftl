@@ -18,7 +18,7 @@
 <CLMenu2 "Facial Recognition">
 <CLMenu3 "Health">
 <CLMenuAbout "About us">
-<FRTitle "Facial Recognition">
+<FRTitle "Face Recognition">
 <FRSubtitle "Computer Vision opening doors">
 <FRProduct "Product">
 <FRText1 "The purpose of CyberLabs is to develop this technology responsibly and give people the decision-making power to be identified or not by the system, without harming any right to privacy.">
@@ -36,10 +36,20 @@
 <LText3 "Solutions are active in Brazilian ports and airports and solving urban mobility problems in major cities of the country.">
 <LTitle2 "Over 40,000 people hit our solutions every day">
 <LDetails "More details?">
-<LText4 "Please enter your email address so we can send you more information about I.A. and facial recognition">
+<LText4 "Please enter your email address so we can send you more information about I.A. and logistic">
 <LThanks "Thanks for the contact, we'll be back as soon as possible :)">
 <LButton "Submit">
-
+<STitle "HEALTH">
+<SSubtitle "Machine Learning for Predicting Response to Rare Disease Treatments">
+<SKnowMore "Learn More">
+<SText1 "The application of AI in the healthcare industry allows rare disease patients to find out in a shorter period of time the best type of treatment for their specific case. This is expected to increase patient life expectancy and reduce treatment costs. ">
+<SText2 "Cyberlabs, in partnership with the Center for Neuroendocrinology Research at UFRJ's Clementina Fraga Filho University Hospital, has built a model using Machine Learning to predict response to acromegaly treatment according to specific biomarkers.">
+<SText3 "The partnership has demonstrated the importance of data sharing among laboratories around the world to increase the predictive power of machine learning models and maximize the benefits to society.">
+<STitle2 "Increasing patient life expectancy and reducing treatment costs">
+<SDetails "More details?">
+<SText4 "Enter your email address so that we can send you more information about I.A. and health">
+<SThanks "Thanks for the contact, we'll be back as soon as possible :)">
+<SButton "Submit">
 <KeyDescription "Use your phone to">
 <KeyDescription1 "Authenticate your identity">
 <KeyDescription2 "Verify presence">
