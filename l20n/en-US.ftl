@@ -54,12 +54,12 @@
 <KeyDescription1 "Authenticate your identity">
 <KeyDescription2 "Verify presence">
 <KeyDescription3 "Control access">
-<KeyButtonBetaT "Be a beta tester">
+<KeyButtonBetaT "Be an early adopter">
 <KeyFormTitle "Registration to be Beta Tester">
 <KeyFormDescription "Join the Key App release">
 <KeyFormThanks "Thank you for registering for the Key Beta Tester program! We will contact you as soon as your request is approved.">
-<KeyFormName "Name">
-<KeyFormEmail "Email">
+<KeyFormName "Name *">
+<KeyFormEmail "Email *">
 <KeyFormJob "Job / Company">
 <KeyFormButton "Send">
 <KeyFormPhone "Phone">
