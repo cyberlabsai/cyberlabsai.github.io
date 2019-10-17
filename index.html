@@ -11,14 +11,15 @@
   
   <title>CyberLabs IA</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="assets/formoid-css/recaptcha.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
   <meta property="og:title" content="CyberLabs IA" />
@@ -28,11 +29,11 @@
 <link rel="localization" href="./l20n/manifest.json">
 <meta name="defaultLanguage" content="en-US">
 <meta name="availableLanguages" content="en-US">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js"></script>
 </head>
 <body>
 
-<!-- Google Analytics -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js"></script>
+<!-- Analytics -->
 <script type="text/javascript">
   (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
   ;r.type="text/javascript"
@@ -58,18 +59,9 @@
   ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
   ;e.amplitude=n})(window,document);
 
-  amplitude.getInstance().init("b0400233d3e239ccb2585ca3513492c9" , null, {
-    saveEvents: true,
-    includeUtm: true,
-    includeReferrer: true,
-    trackingOptions: {
-       city: true,
-       ip_address: true,
-
-    }
-  });
+  amplitude.getInstance().init("649a082b67026e96e3bbe3e0616a51c4");
 </script>
-<!-- /Google Analytics -->
+<!-- /Analytics -->
 
 
   <section class="menu cid-roAcpEuQ0I" once="menu" id="menu1-2">
@@ -96,7 +88,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item dropdown">
-                    <a data-l10n-id="CLMenuSolutions" class="nav-link link dropdown-toggle text-warning display-4" aria-expanded="false" data-toggle="dropdown-submenu">Soluções</a>
+                    <a data-l10n-id="CLMenuSolutions" class="nav-link link dropdown-toggle text-warning display-4" aria-expanded="true" data-toggle="dropdown-submenu">Soluções</a>
                 <div class="dropdown-menu">
                       <a data-l10n-id="CLMenu3" onclick="setAmplitudeEvent('clicked on health button') ; gaTracking('Homepage - Saúde', '/Health.html')" class="dropdown-item text-warning display-4" href="Health.html" aria-expanded="false">Saúde<br></a>
                       <a data-l10n-id="CLMenu1" onclick="setAmplitudeEvent('clicked on logistic button') ; gaTracking('Homepage - Logística', '/Logistics.html')" class="dropdown-item text-warning display-4" href="Logistics.html" aria-expanded="false">Logística<br></a>
@@ -419,15 +411,17 @@
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
-  <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
   <script src="assets/mbr-clients-slider/mbr-clients-slider.js"></script>
-  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/dropdown/js/nav-dropdown.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script src="assets/theme/js/alert.js"></script>

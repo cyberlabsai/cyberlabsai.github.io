@@ -11,14 +11,15 @@
   
   <title>Saúde</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="assets/formoid-css/recaptcha.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
   <meta property="og:title" content="CyberLabs IA" />
@@ -31,8 +32,7 @@
 </head>
 <body>
 
-<!-- Google Analytics -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js"></script>
+<!-- Analytics -->
 <script type="text/javascript">
   (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
   ;r.type="text/javascript"
@@ -58,18 +58,9 @@
   ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
   ;e.amplitude=n})(window,document);
 
-  amplitude.getInstance().init("b0400233d3e239ccb2585ca3513492c9" , null, {
-    saveEvents: true,
-    includeUtm: true,
-    includeReferrer: true,
-    trackingOptions: {
-       city: true,
-       ip_address: true,
-
-    }
-  });
+  amplitude.getInstance().init("649a082b67026e96e3bbe3e0616a51c4");
 </script>
-<!-- /Google Analytics -->
+<!-- /Analytics -->
 
 
   <section class="menu cid-rr7CdiKQ2E" once="menu" id="menu1-4g">
@@ -96,7 +87,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item dropdown">
-                    <a data-l10n-id="CLMenuSolutions" class="nav-link link dropdown-toggle text-warning display-4" aria-expanded="false" data-toggle="dropdown-submenu">Soluções</a>
+                    <a data-l10n-id="CLMenuSolutions" class="nav-link link dropdown-toggle text-warning display-4" aria-expanded="true" data-toggle="dropdown-submenu">Soluções</a>
                 <div class="dropdown-menu">
                       <a data-l10n-id="CLMenu3" onclick="setAmplitudeEvent('clicked on health button') ; gaTracking('Homepage - Saúde', '/Health.html')" class="dropdown-item text-warning display-4" href="Health.html" aria-expanded="false">Saúde<br></a>
                       <a data-l10n-id="CLMenu1" onclick="setAmplitudeEvent('clicked on logistic button') ; gaTracking('Homepage - Logística', '/Logistics.html')" class="dropdown-item text-warning display-4" href="Logistics.html" aria-expanded="false">Logística<br></a>
@@ -120,10 +111,9 @@
     <div class="container">
         <div class="media-container-column mbr-white col-lg-8 col-md-10">
             <h1 class="mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style display-1"><span style="font-weight: normal;">
-</span><br><span style="font-weight: normal;">SAÚDE</span></h1>
-            
-            <p class="mbr-text align-left pb-3 mbr-fonts-style display-5">Machine Learning para predição de resposta a tratamentos contra doenças raras</p>
-            <div class="mbr-section-btn align-left"><a class="btn btn-md btn-success display-4" onclick="setAmplitudeEvent('clicked on health know more button')" href="#formHealth">Saiba Mais</a></div>
+</span><br><span style="font-weight: normal;" data-l10n-id="STitle">SAÚDE</span></h1>
+            <p class="mbr-text align-left pb-3 mbr-fonts-style display-5" data-l10n-id="SSubtitle">Machine Learning para predição de resposta a tratamentos contra doenças raras</p>
+            <div class="mbr-section-btn align-left"><a class="btn btn-md btn-success display-4" onclick="setAmplitudeEvent('clicked on health know more button')" href="#formHealth" data-l10n-id="KnowMore">Saiba Mais</a></div>
         </div>
     </div>
 
@@ -136,7 +126,10 @@
 
     <div class="container">
         <div class="media-container-row">
-            <div class="mbr-text col-12 mbr-fonts-style display-5 col-md-12"><p>A aplicação de I.A. no setor de saúde permite que pacientes de doenças raras descubram em um menor espaço de tempo o melhor tipo de tratamento para o seu caso específico. Com isso, espera-se aumentar a expectativa de vida do paciente e reduzir os custos de tratamento.&nbsp;</p><p><br></p><p>A Cyberlabs, em parceria com o Centro de Pesquisa em Neuroendocrinologia do Hospital Universitário Clementina Fraga Filho da UFRJ, construiu um modelo com uso de Machine Learning para prever a resposta ao tratamento de acromegalia de acordo com biomarcadores específicos.</p><p><br></p><p>A parceria demonstrou a importância do compartilhamento de dados entre os laboratórios de todo o mundo para aumentar o poder preditivo dos modelos de machine learning e potencializar os benefícios para sociedade.</p><p></p></div>
+            <div class="mbr-text col-12 mbr-fonts-style display-5 col-md-12">
+                <p data-l10n-id="SText1">A aplicação de I.A. no setor de saúde permite que pacientes de doenças raras descubram em um menor espaço de tempo o melhor tipo de tratamento para o seu caso específico. Com isso, espera-se aumentar a expectativa de vida do paciente e reduzir os custos de tratamento.&nbsp;</p><p><br></p>
+                <p data-l10n-id="SText2">A Cyberlabs, em parceria com o Centro de Pesquisa em Neuroendocrinologia do Hospital Universitário Clementina Fraga Filho da UFRJ, construiu um modelo com uso de Machine Learning para prever a resposta ao tratamento de acromegalia de acordo com biomarcadores específicos.</p><p><br></p>
+                <p data-l10n-id="SText3">A parceria demonstrou a importância do compartilhamento de dados entre os laboratórios de todo o mundo para aumentar o poder preditivo dos modelos de machine learning e potencializar os benefícios para sociedade.</p><p></p></div>
         </div>
     </div>
 </section>
@@ -152,7 +145,7 @@
     <div class="container align-left">
         <div class="media-container-column mbr-white col-md-12">
             
-            <h1 class="mbr-section-title py-3 mbr-fonts-style display-1">Aumento da expectativa de vida do paciente e redução dos custos de tratamento</h1>
+            <h1 class="mbr-section-title py-3 mbr-fonts-style display-1" data-l10n-id="STitle2">Aumento da expectativa de vida do paciente e redução dos custos de tratamento</h1>
             
             
         </div>
@@ -170,17 +163,17 @@
     <div id="formHealth" class="container">
         <div class="row justify-content-center">
             <div class="title col-12 col-lg-8">
-                <h2 class="align-center pb-2 mbr-fonts-style display-2">Mais detalhes?</h2>
-                <h3 class="mbr-section-subtitle align-center pb-5 mbr-light mbr-fonts-style display-5">Informe seu email para que possamos enviar mais informações sobre o uso de I.A. em saúde</h3>
+                <h2 class="align-center pb-2 mbr-fonts-style display-2" data-l10n-id="SDetails">Mais detalhes?</h2>
+                <h3 class="mbr-section-subtitle align-center pb-5 mbr-light mbr-fonts-style display-5" data-l10n-id="SText4">Informe seu email para que possamos enviar mais informações sobre o uso de I.A. em saúde</h3>
             </div>
         </div>
 
         <div class="row py-2 justify-content-center">
             <div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid">
                 <!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="IvH7eQ6SoDyFRBYwjGYNbvoKemzF+fgC6sfOgO8UEgcFhyzNACP3NbRPRPlS8EdwquLhqiGD6gUOSCdPUtq+e///eAyxKBoLMBcX8mldFZ2A1UgLXjqrIznZSsm0Hbop">
+                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="CkBvxDuhM+Kp/eS7koUSwLGoce7UUuq/BnzagSzMz85kIkRv0zofiQG9sAfRaTgUZEweBNcDDJrxAaVMm8nVsj4raf1FOJDEFpXB5j4yBgRwAkh4yZxXZDkGFoP3jFpY.hKjl6gZurULz5ZZT9ng5AArUHMgqV6fTLOvYxHUjeGOsrRz2CmbMzVT0AGQGFISXj3dIuEwZ2K437Q9AvadV1E/Q7hnPOxHLlqvOkyU0KdwfuRkQcb+AeytAUwtd6E/T">
                     <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado pelo contato, retornaremos assim que possível :)</div>
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12" data-l10n-id="SThanks">Obrigado pelo contato, retornaremos assim que possível :)</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
                         </div>
                     </div>
@@ -188,7 +181,7 @@
                         <div class="form-group col" data-for="email">
                             <input type="email" name="email" placeholder="Email" data-form-field="Email" required="required" class="form-control display-7" id="email-form3-3f">
                         </div>
-                        <div class="col-auto input-group-btn"><button type="submit" class="btn btn-primary display-4">Enviar</button></div>
+                        <div class="col-auto input-group-btn"><button type="submit" class="btn btn-primary display-4" data-l10n-id="SButton">Enviar</button></div>
                     </div>
                 </form><!---Formbuilder Form--->
             </div>
@@ -251,12 +244,13 @@
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
-  <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/dropdown/js/nav-dropdown.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
   
