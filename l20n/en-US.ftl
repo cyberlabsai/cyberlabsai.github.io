@@ -32,4 +32,4 @@
 <KeyFormButton "Send">
 <KeyFormPhone "Phone">
 <KeyFormAccept "Would you like to receive e-mails from us? *">
-<KeyFormAccepted "yes">
+<KeyFormAccepted "Yes">
