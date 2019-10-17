@@ -4422,7 +4422,7 @@ section.lazy-placeholder:after {
 @media (max-width: 991px) {
   .cid-rEUA0zJ6cF .mbr-figure {
     padding-bottom: 1rem;
-    margin-top: 8rem;
+    margin-top: 11rem;
   }
 }
 @media (max-width: 767px) {
@@ -4451,6 +4451,12 @@ section.lazy-placeholder:after {
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
 }
+@media (max-width: 790px) {
+  .cid-rEUA0zJ6cF .typewriter {
+    display: flex;
+    justify-content: center;
+  }
+}
 .cid-rEUA0zJ6cF .display-1 {
   font-size: 3.5em;
 }
@@ -4468,6 +4474,9 @@ section.lazy-placeholder:after {
   .cid-rEUA0zJ6cF .btn {
     font-size: 1rem !important;
   }
+}
+.cid-rEUA0zJ6cF P {
+  text-align: left;
 }
 .cid-rF6pECyvBx {
   padding-top: 120px;
@@ -4492,7 +4501,7 @@ section.lazy-placeholder:after {
   cursor: pointer;
 }
 .cid-rF6pECyvBx .form-control-label {
-  cursor: none;
+  cursor: unset;
 }
 @media (max-width: 1281px) {
   .cid-rF6pECyvBx .form-check {
