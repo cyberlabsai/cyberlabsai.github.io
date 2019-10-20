@@ -20,7 +20,7 @@
 <CLMenuAbout "About us">
 <FRTitle "Face Recognition">
 <FRSubtitle "Computer Vision opening doors">
-<FRProduct "Product">
+<FRKnowMore "Know More">
 <FRText1 "The purpose of CyberLabs is to develop this technology responsibly and give people the decision-making power to be identified or not by the system, without harming any right to privacy.">
 <FRText2 "Among the applications offered by CyberLabs are <b> access control </b>, <b> point control </b> of employees, <b> restricted area monitoring </b>, <b> identity authentication </b> and an open <b> development toolset (SDK) </b> open to the community.">
 <FRTitle2 "World's first neural network tailored to Brazilian faces">
@@ -30,7 +30,7 @@
 <FRButton "Submit">
 <LTitle "LOGISTICS">
 <LSubtitle "Deep Learning and Computer Vision for Efficient Resource Management">
-<LProduct "Product">
+<LKnowMore "Know More">
 <LText1 "Applying Artificial Intelligence in the logistics field maximizes resource use, minimizes costs and raises the level of service.">
 <LText2 "Solutions developed by CyberLabs are able to optimize resource allocation in the operation of ports, airports and ground logistics. Benefits include fuel economy, staff optimization, reduced queue times and improved service efficiency." >
 <LText3 "Solutions are active in Brazilian ports and airports and solving urban mobility problems in major cities of the country.">
@@ -41,7 +41,7 @@
 <LButton "Submit">
 <STitle "HEALTH">
 <SSubtitle "Machine Learning for Predicting Response to Rare Disease Treatments">
-<SKnowMore "Learn More">
+<SKnowMore "Know More">
 <SText1 "The application of AI in the healthcare industry allows rare disease patients to find out in a shorter period of time the best type of treatment for their specific case. This is expected to increase patient life expectancy and reduce treatment costs. ">
 <SText2 "Cyberlabs, in partnership with the Center for Neuroendocrinology Research at UFRJ's Clementina Fraga Filho University Hospital, has built a model using Machine Learning to predict response to acromegaly treatment according to specific biomarkers.">
 <SText3 "The partnership has demonstrated the importance of data sharing among laboratories around the world to increase the predictive power of machine learning models and maximize the benefits to society.">
