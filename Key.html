@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html  >
+<html>
+
 <head>
 
   <meta charset="UTF-8">
@@ -21,49 +22,98 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/adicional.css">
   <link rel="stylesheet" href="assets/formoid-css/recaptcha.css">
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
 
   <meta property="og:title" content="CyberLabs IA" />
-<meta property="og:url" content="https://cyberlabs.ai/Key" />
+  <meta property="og:url" content="https://cyberlabs.ai/Key" />
   <link rel="stylesheet" href="assets/theme/css/additional.css">
-<meta name="defaultLanguage" content="en-US">
-<meta name="availableLanguages" content="en-US">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js"></script>
-<link rel="localization" href="./l20n/manifest.json">
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <meta name="defaultLanguage" content="en-US">
+  <meta name="availableLanguages" content="en-US">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js"></script>
+  <link rel="localization" href="./l20n/manifest.json">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 </head>
+
 <body>
 
-<!-- Analytics -->
-<script type="text/javascript">
-  (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
-  ;r.type="text/javascript"
-  ;r.integrity="sha384-d/yhnowERvm+7eCU79T/bYjOiMmq4F11ElWYLmt0ktvYEVgqLDazh4+gW9CKMpYW"
-  ;r.crossOrigin="anonymous";r.async=true
-  ;r.src="https://cdn.amplitude.com/libs/amplitude-5.2.2-min.gz.js"
-  ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
-  console.log("[Amplitude] Error: could not load SDK")}}
-  ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
-  ;function s(e,t){e.prototype[t]=function(){
-  this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
-  var o=function(){this._q=[];return this}
-  ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
-  ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
-  ;return this}
-  ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
-  ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
-  ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
-  ;function v(e){function t(t){e[t]=function(){
-  e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
-  for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
-  e=(!e||e.length===0?"$default_instance":e).toLowerCase()
-  ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
-  ;e.amplitude=n})(window,document);
+  <!-- Analytics -->
+  <script type="text/javascript">
+    (function(e, t) {
+      var n = e.amplitude || {
+        _q: [],
+        _iq: {}
+      };
+      var r = t.createElement("script");
+      r.type = "text/javascript";
+      r.integrity = "sha384-d/yhnowERvm+7eCU79T/bYjOiMmq4F11ElWYLmt0ktvYEVgqLDazh4+gW9CKMpYW";
+      r.crossOrigin = "anonymous";
+      r.async = true;
+      r.src = "https://cdn.amplitude.com/libs/amplitude-5.2.2-min.gz.js";
+      r.onload = function() {
+        if (!e.amplitude.runQueuedFunctions) {
+          console.log("[Amplitude] Error: could not load SDK")
+        }
+      };
+      var i = t.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(r, i);
 
-  amplitude.getInstance().init("b0400233d3e239ccb2585ca3513492c9");
-</script>
-<!-- /Analytics -->
+      function s(e, t) {
+        e.prototype[t] = function() {
+          this._q.push([t].concat(Array.prototype.slice.call(arguments, 0)));
+          return this
+        }
+      }
+      var o = function() {
+        this._q = [];
+        return this
+      };
+      var a = ["add", "append", "clearAll", "prepend", "set", "setOnce", "unset"];
+      for (var u = 0; u < a.length; u++) {
+        s(o, a[u])
+      }
+      n.Identify = o;
+      var c = function() {
+        this._q = [];
+        return this
+      };
+      var l = ["setProductId", "setQuantity", "setPrice", "setRevenueType", "setEventProperties"];
+      for (var p = 0; p < l.length; p++) {
+        s(c, l[p])
+      }
+      n.Revenue = c;
+      var d = ["init", "logEvent", "logRevenue", "setUserId", "setUserProperties", "setOptOut", "setVersionName", "setDomain", "setDeviceId", "setGlobalUserProperties", "identify", "clearUserProperties", "setGroup", "logRevenueV2",
+        "regenerateDeviceId", "groupIdentify", "onInit", "logEventWithTimestamp", "logEventWithGroups", "setSessionId", "resetSessionId"
+      ];
+
+      function v(e) {
+        function t(t) {
+          e[t] = function() {
+            e._q.push([t].concat(Array.prototype.slice.call(arguments, 0)))
+          }
+        }
+        for (var n = 0; n < d.length; n++) {
+          t(d[n])
+        }
+      }
+      v(n);
+      n.getInstance = function(e) {
+        e = (!e || e.length === 0 ? "$default_instance" : e).toLowerCase();
+        if (!n._iq.hasOwnProperty(e)) {
+          n._iq[e] = {
+            _q: []
+          };
+          v(n._iq[e])
+        }
+        return n._iq[e]
+      };
+      e.amplitude = n
+    })(window, document);
+
+    amplitude.getInstance().init("b0400233d3e239ccb2585ca3513492c9");
+  </script>
+  <!-- /Analytics -->
 
 
   <section class="menu cid-rEUveieujO" once="menu" id="menu1-4l">
@@ -71,129 +121,140 @@
 
 
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top transparent navbar-toggleable-sm bg-color">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </button>
-        <div class="menu-logo">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="index.html">
-                         <img src="assets/images/asset-4-151x52.png" alt="" title="" style="height: 3.8rem;">
-                    </a>
-                </span>
-            </div>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item dropdown">
-                    <a data-l10n-id="CLMenuSolutions" class="nav-link link dropdown-toggle text-warning display-4" aria-expanded="true" data-toggle="dropdown-submenu">Soluções</a>
-                <div class="dropdown-menu">
-                      <a data-l10n-id="CLMenu3" onclick="setAmplitudeEvent('clicked on health button') ; gaTracking('Homepage - Saúde', '/Health.html')" class="dropdown-item text-warning display-4" href="Health.html" aria-expanded="false">Saúde<br></a>
-                      <a data-l10n-id="CLMenu1" onclick="setAmplitudeEvent('clicked on logistic button') ; gaTracking('Homepage - Logística', '/Logistics.html')" class="dropdown-item text-warning display-4" href="Logistics.html" aria-expanded="false">Logística<br></a>
-                      <a data-l10n-id="CLMenu2" onclick="setAmplitudeEvent('clicked on facial recognition button') ; gaTracking('Homepage - Reconhecimento Facial', '/FaceRecognition.html')" class="dropdown-item text-warning display-4" href="FaceRecognition.html" aria-expanded="false">Reconhecimento Facial<br></a>
-                    <a onclick="setAmplitudeEvent('clicked on key button') ; gaTracking('Homepage - Key', '/Key.html')" class="dropdown-item text-warning display-4" href="Key.html" aria-expanded="false">Key<br></a>
-                      <a onclick="setAmplitudeEvent('clicked on insight now button') ; gaTracking('Homepage - Insight now', 'http://www.insight.cyberlabs.ai/')" class="dropdown-item text-warning display-4" href="https://insight.cyberlabs.ai/now/" aria-expanded="false" target="_blank">InSight Now<br></a>
-                    </div>
-                </li>
-                <li class="nav-item"><a data-l10n-id="CLMenuAbout" onclick="setAmplitudeEvent('clicked on about us button') ; gaTracking('Homepage - Sobre Nós', '/AboutUs.html')" class="nav-link link text-warning display-4" href="AboutUs.html" aria-expanded="false">Sobre Nós</a></li></ul>
+      </button>
+      <div class="menu-logo">
+        <div class="navbar-brand">
+          <span class="navbar-logo">
+            <a href="index.html">
+              <img src="assets/images/asset-4-151x52.png" alt="" title="" style="height: 3.8rem;">
+            </a>
+          </span>
         </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+          <li class="nav-item dropdown">
+            <a data-l10n-id="CLMenuSolutions" class="nav-link link dropdown-toggle text-warning display-4" aria-expanded="true" data-toggle="dropdown-submenu">Soluções</a>
+            <div class="dropdown-menu">
+              <a data-l10n-id="CLMenu3" onclick="setAmplitudeEvent('clicked on health button') ; gaTracking('Homepage - Saúde', '/Health.html')" class="dropdown-item text-warning display-4" href="Health.html" aria-expanded="false">Saúde<br></a>
+              <a data-l10n-id="CLMenu1" onclick="setAmplitudeEvent('clicked on logistic button') ; gaTracking('Homepage - Logística', '/Logistics.html')" class="dropdown-item text-warning display-4" href="Logistics.html"
+                aria-expanded="false">Logística<br></a>
+              <a data-l10n-id="CLMenu2" onclick="setAmplitudeEvent('clicked on facial recognition button') ; gaTracking('Homepage - Reconhecimento Facial', '/FaceRecognition.html')" class="dropdown-item text-warning display-4"
+                href="FaceRecognition.html" aria-expanded="false">Reconhecimento Facial<br></a>
+              <a onclick="setAmplitudeEvent('clicked on key button') ; gaTracking('Homepage - Key', '/Key.html')" class="dropdown-item text-warning display-4" href="Key.html" aria-expanded="false">Key<br></a>
+              <a onclick="setAmplitudeEvent('clicked on insight now button') ; gaTracking('Homepage - Insight now', 'http://www.insight.cyberlabs.ai/')" class="dropdown-item text-warning display-4" href="https://insight.cyberlabs.ai/now/"
+                aria-expanded="false" target="_blank">InSight Now<br></a>
+            </div>
+          </li>
+          <li class="nav-item"><a data-l10n-id="CLMenuAbout" onclick="setAmplitudeEvent('clicked on about us button') ; gaTracking('Homepage - Sobre Nós', '/AboutUs.html')" class="nav-link link text-warning display-4" href="AboutUs.html"
+              aria-expanded="false">Sobre Nós</a></li>
+        </ul>
+      </div>
     </nav>
-</section>
+  </section>
 
-<section class="header3 cid-rEUA0zJ6cF mbr-fullscreen" id="header3-4m">
+  <section class="header3 cid-rEUA0zJ6cF mbr-fullscreen" id="header3-4m">
 
 
 
 
 
     <div class="container">
-        <div class="media-container-row">
+      <div class="media-container-row">
 
-            <div class="media-content">
-                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style h1 display-1">
-                    Key</h1>
-                <div class="mbr-section-text mbr-white pb-3 ">
-                    <p class="mbr-text mbr-fonts-style display-2" data-l10n-id="KeyDescription">
-                        Use seu celular para:
-                    </p>
-                    <div id="typewriter" class="mbr-text mbr-fonts-style typewriter display-2">
-                      <p data-l10n-id="KeyDescription1">Autenticar sua identidade</p>
-                      <p data-l10n-id="KeyDescription2">Verificar presença</p>
-                      <p data-l10n-id="KeyDescription3">Controlar acessos</p>
-                    </div>
-                    <span id="typed" class="mbr-text mbr-fonts-style typewriter display-2"></span>
-                </div>
-              <div class="mbr-section-btn">
-                <a class="btn btn-md btn-primary display-4" href="#formBeta" onclick="setAmplitudeEvent('clicked on beta tester button') ; gaTracking('Key - Insight now', 'http://www.insight.cyberlabs.ai/')" data-l10n-id="KeyButtonBetaT">Seja um Beta Tester</a>
-              </div>
-              <div class="mbr-section-btn">
-                <a class="btn btn-outline-secondary display-4" onclick="window.open('../Politica de Privacidade Key.pdf', '_blank') ; window.open('../Termos de Uso Key.pdf', '_blank') ; setAmplitudeEvent('clicked on terms of use button') ; gaTracking('Key - Insight now', 'http://www.insight.cyberlabs.ai/')" data-l10n-id="KeyButtonUserTerms">Termos de uso</a>
-              </div>
-
+        <div class="media-content">
+          <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style h1 display-1">
+            Key</h1>
+          <div class="mbr-section-text mbr-white pb-3 ">
+            <p class="mbr-text mbr-fonts-style display-2" data-l10n-id="KeyDescription">
+              Use seu celular para:
+            </p>
+            <div id="typewriter" class="mbr-text mbr-fonts-style typewriter display-2">
+              <p data-l10n-id="KeyDescription1">Autenticar sua identidade</p>
+              <p data-l10n-id="KeyDescription2">Verificar presença</p>
+              <p data-l10n-id="KeyDescription3">Controlar acessos</p>
             </div>
-
-             <div class="mbr-figure" style="width: 90%;">
-                <img src="assets/images/whatsapp-image-2019-10-14-at-18.04.14-887x1024.jpg" alt="" title="">
-            </div>
+            <span id="typed" class="mbr-text mbr-fonts-style typewriter display-2"></span>
+          </div>
+          <div class="mbr-section-btn">
+            <a class="btn btn-md btn-primary display-4" href="#formBeta" onclick="setAmplitudeEvent('clicked on beta tester button') ; gaTracking('Key - Insight now', 'http://www.insight.cyberlabs.ai/')" data-l10n-id="KeyButtonBetaT">Seja um Beta
+              Tester</a>
+          </div>
+          <div class="mbr-section-btn">
+            <a class="btn btn-outline-secondary display-4"
+              onclick="window.open('../Politica de Privacidade Key.pdf', '_blank') ; window.open('../Termos de Uso Key.pdf', '_blank') ; setAmplitudeEvent('clicked on terms of use button') ; gaTracking('Key - Insight now', 'http://www.insight.cyberlabs.ai/')"
+              data-l10n-id="KeyButtonUserTerms">Termos de uso</a>
+          </div>
 
         </div>
+
+        <div class="mbr-figure" style="width: 90%;">
+          <img src="assets/images/whatsapp-image-2019-10-14-at-18.04.14-887x1024.jpg" alt="" title="">
+        </div>
+
+      </div>
     </div>
 
-</section>
+  </section>
 
-<section class="mbr-section form1 cid-rF6pECyvBx" id="formbuilder-4o">
+  <section class="mbr-section form1 cid-rF6pECyvBx" id="formbuilder-4o">
 
 
-                            <div id="formBeta" class="container formBeta">
-                                <div class="row">
-                                    <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-<!--Formbuilder Form-->
-<form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="KeyForm"><input type="hidden" name="email" data-form-email="true" value="x1jJstw3AfjGLplkC89yz7a3S3Gu0pmVYUOU86rCEdx39Bkahvj30k8zjQ2Kn38ZH/mRxXfJR+YbXG31bf/kgT6DzNj3Sf73D4ApmlTqNLnzb6/hfUS7wzC3hSbSlziM.wBO57t4cI3IgUh6xENbMmAFM1Y8BDz3DUrar6Bqg4qbT0ukqA1RUYUQZw7mcgvmxCCIBDVpUdRFMVqgIAVwiMBqv6P3ptbHFD7I9xvmt6TtRin627kxrGkVoRvA0+SsP">
-<div class="form-row">
-<div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado por se cadastrar no programa de Beta Tester do Key! Entraremos em contato assim que a sua solicitação for aprovada.</div>
-<div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...!</div>
-</div>
-<div class="dragArea form-row">
-<div class="col-lg-12 col-md-12 col-sm-12">
-<h4 class="mbr-fonts-style display-2">Pré-Cadastro</h4>
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12">
-<p class="mbr-fonts-style display-5">Participe do lançamento do Key</p>
-</div>
-<div data-for="name" class="col-lg-4 col-md-12 col-sm-12 form-group">
-<label for="name-formbuilder-4o" class="form-control-label mbr-fonts-style display-7">Nome*</label>
-<input type="text" name="name" data-form-field="name" class="form-control display-7" required="required" value="" id="name-formbuilder-4o">
-</div>
-<div data-for="phone1" class="col-lg-8 col-md-12 col-sm-12 form-group">
-<label for="phone1-formbuilder-4o" class="form-control-label mbr-fonts-style display-7">Telefone</label>
-<input type="tel" name="phone1" placeholder="21 999999999" data-form-field="phone1" class="form-control display-7" value="" id="phone1-formbuilder-4o">
-</div>
-<div data-for="email1" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<label for="email1-formbuilder-4o" class="form-control-label mbr-fonts-style display-7">Email*</label>
-<input type="email" name="email1" data-form-field="email1" class="form-control display-7" required="required" value="" id="email1-formbuilder-4o">
-</div>
-<div data-for="Sim" class="col-lg-12 form-control-label">
-<div class="form-control-label">
-<label for="Sim-formbuilder-4o" class="mbr-fonts-style display-7">Deseja receber e-mails da gente? *</label>
-</div>
-<div class="form-check">
-<input type="checkbox" value="Yes" name="Sim" data-form-field="Sim" required="required" class="form-check-input display-7" id="Sim-formbuilder-4o">
-<label class="form-check-label display-7">Sim</label>
-</div>
-</div>
-<div class="col-md-12 input-group-btn align-center">
-<button type="submit" class="btn btn-primary btn-form display-4">Enviar</button>
-</div>
-</div>
-</form><!--Formbuilder Form-->
-</div>
-                                </div>
-                            </div>
-                        </section>
+    <div id="formBeta" class="container formBeta">
+      <div class="row">
+        <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+          <!--Formbuilder Form-->
+          <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="KeyForm"><input type="hidden" name="email" data-form-email="true"
+              value="x1jJstw3AfjGLplkC89yz7a3S3Gu0pmVYUOU86rCEdx39Bkahvj30k8zjQ2Kn38ZH/mRxXfJR+YbXG31bf/kgT6DzNj3Sf73D4ApmlTqNLnzb6/hfUS7wzC3hSbSlziM.wBO57t4cI3IgUh6xENbMmAFM1Y8BDz3DUrar6Bqg4qbT0ukqA1RUYUQZw7mcgvmxCCIBDVpUdRFMVqgIAVwiMBqv6P3ptbHFD7I9xvmt6TtRin627kxrGkVoRvA0+SsP">
+            <div class="form-row">
+              <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado por se cadastrar no programa de Beta Tester do Key! Entraremos em contato assim que a sua solicitação for aprovada.</div>
+              <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...!</div>
+            </div>
+            <div class="dragArea form-row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <h4 class="mbr-fonts-style display-2">Pré-Cadastro</h4>
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <p class="mbr-fonts-style display-5">Participe do lançamento do Key</p>
+              </div>
+              <div data-for="name" class="col-lg-4 col-md-12 col-sm-12 form-group">
+                <label for="name-formbuilder-4o" class="form-control-label mbr-fonts-style display-7">Nome*</label>
+                <input type="text" name="name" data-form-field="name" class="form-control display-7" required="required" value="" id="name-formbuilder-4o">
+              </div>
+              <div data-for="phone1" class="col-lg-8 col-md-12 col-sm-12 form-group">
+                <label for="phone1-formbuilder-4o" class="form-control-label mbr-fonts-style display-7">Telefone</label>
+                <input type="tel" name="phone1" placeholder="21 999999999" data-form-field="phone1" class="form-control display-7" value="" id="phone1-formbuilder-4o">
+              </div>
+              <div data-for="email1" class="col-lg-12 col-md-12 col-sm-12 form-group">
+                <label for="email1-formbuilder-4o" class="form-control-label mbr-fonts-style display-7">Email*</label>
+                <input type="email" name="email1" data-form-field="email1" class="form-control display-7" required="required" value="" id="email1-formbuilder-4o">
+              </div>
+              <div data-for="Sim" class="col-lg-12 form-control-label">
+                <div class="form-control-label">
+                  <label for="Sim-formbuilder-4o" class="mbr-fonts-style display-7">Deseja receber e-mails da gente? *</label>
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" value="Yes" name="Sim" data-form-field="Sim" required="required" class="form-check-input display-7" id="Sim-formbuilder-4o">
+                  <label class="form-check-label display-7">Sim</label>
+                </div>
+              </div>
+              <div class="col-md-12 input-group-btn align-center">
+                <button type="submit" class="btn btn-primary btn-form display-4">Enviar</button>
+              </div>
+            </div>
+          </form>
+          <!--Formbuilder Form-->
+        </div>
+      </div>
+    </div>
+  </section>
 
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
@@ -211,32 +272,36 @@
   <script src="assets/formoid/formoid.min.js"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script src="assets/theme/js/amplitude.js"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99384557-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script src="assets/theme/js/amplitude.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-99384557-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-99384557-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-99384557-1');
+  </script>
 
   <script>
     //track homepage views
     logEvent("view key page");
   </script>
 
-<script type="text/javascript">
-$(window).load(function() {
-    var typed = new Typed("#typed", {
-      stringsElement: '#typewriter',
-      loop: true,
-      backDelay: 1000,
-      backSpeed: 50,
-      typeSpeed: 100,
-      startDelay: 1000
-     });
-});
-</script>
+  <script type="text/javascript">
+    $(window).load(function() {
+      var typed = new Typed("#typed", {
+        stringsElement: '#typewriter',
+        loop: true,
+        backDelay: 1000,
+        backSpeed: 50,
+        typeSpeed: 100,
+        startDelay: 1000
+      });
+    });
+  </script>
 </body>
+
 </html>
