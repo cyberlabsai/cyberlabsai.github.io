@@ -56,7 +56,7 @@
 <KeyDescription3 "Control access">
 <KeyButtonBetaT "Be an early adopter">
 <KeyButtonUserTerms "Terms of use">
-<KeyButtonPrivacyPolicys "Privacy politics">
+<KeyButtonPrivacyPolicys "Privacy policy">
 <KeyFormTitle "Registration to be Beta Tester">
 <KeyFormDescription "Join the Key App release">
 <KeyFormThanks "Thank you for registering for the Key Beta Tester program! We will contact you as soon as your request is approved.">
