@@ -56,6 +56,7 @@
 <KeyDescription3 "Controlar acessos">
 <KeyButtonBetaT "Seja um Beta Tester">
 <KeyButtonUserTerms "Termos de uso">
+<KeyButtonPrivacyPolicys "Políticas de privacidade">
 <KeyFormTitle "Pré-Cadastro">
 <KeyFormDescription "Participe do lançamento do Key">
 <KeyFormThanks "Obrigado por se cadastrar no programa de Beta Tester do Key! Entraremos em contato assim que a sua solicitação for aprovada.">
