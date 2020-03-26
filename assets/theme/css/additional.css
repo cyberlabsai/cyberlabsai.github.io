@@ -1,13 +1,10 @@
-@media (max-width: 800px) {
-.form1 {
-  height: 100% !important;
-  }
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap);
+body {
+  min-height: 100% !important;
 }
-
 .form1 {
   height: 100vh
 }
-
 .btn-outline-secondary {
   border-color: #C5C5C5
 }
@@ -15,4 +12,164 @@
 .btn-outline-secondary:hover {
   background-color: #F2F2F2;
   border-color: #C5C5C5
+}
+.text {
+  background-color: #ffffff;
+  margin-top: 5rem;
+  margin-bottom: 20rem;
+}
+.mbr-text,
+.mbr-section-btn {
+  text-align: center;
+  color: #767676;
+}
+.download {
+  background-color: #ffffff;
+}
+.download .mbr-text {
+  color: #767676;
+}
+.download h4 {
+  text-align: center;
+}
+.download p {
+  text-align: center;
+}
+.download .card .card-img span {
+  font-size: 40px;
+  padding: 1.5rem;
+  background: #01cbd2;
+  border: 2px solid #01cbd2;
+  color: #ffffff;
+  border-radius: 50%;
+  transition: all .3s;
+}
+.download .card:hover .card-img span {
+  background: none;
+  color: #01cbd2;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1.5rem;
+}
+.h1 > .mbr-iconfont {
+  font-size: 6.8rem;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+.h2 > .mbr-iconfont {
+  font-size: 3.2rem;
+}
+.subtext {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+.subtext > .mbr-iconfont {
+  font-size: 2.24rem;
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  height: 100%;
+}
+
+.container {
+  max-width: 100%;
+}
+.store-google {
+  width: 100% !important;
+}
+
+.store-apple {
+  width: 88% !important;
+}
+
+@media screen and (max-width: 900px) and (max-height: 1200px){
+  .store-google {
+    width: 80% !important;
+  }
+  .store-apple {
+    width: 70% !important;
+  }
+  .text {
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-height: 896px) {
+  .text {
+    margin: 0;
+  }
+  .h1 {
+    margin-bottom: 2rem;
+  }
+  .image {
+    height: 12rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .download {
+    margin-top: 3rem;
+  }
+  .subtext {
+    font-size: 1.2rem;
+  }
+  .store-google {
+    width: 50% !important;
+  }
+  .store-apple {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .download {
+    margin-top: 2rem;
+  }
+  .h1 {
+    margin-bottom: 2rem;
+  }
+  .subtext {
+    font-size: 1.5rem;
+  }
+  .image {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 10rem;
+  }
+}
+
+@media screen and (max-height: 740px) {
+  .image{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .subtext {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .image {
+    height: 8.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .h1 {
+    margin-bottom: 2rem;
+  }
+  .store-google {
+    width: 50% !important;
+  }
+  .store-apple {
+    width: 50% !important;
+  }
 }
