@@ -8,20 +8,21 @@ body {
 .btn-outline-secondary {
   border-color: #C5C5C5
 }
-
 .btn-outline-secondary:hover {
   background-color: #F2F2F2;
   border-color: #C5C5C5
 }
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+.h2 > .mbr-iconfont {
+  font-size: 3.2rem;
+}
 .text {
   background-color: #ffffff;
   margin-top: 5rem;
-  margin-bottom: 20rem;
-}
-.mbr-text,
-.mbr-section-btn {
-  text-align: center;
-  color: #767676;
+  margin-bottom: 10rem;
 }
 .download {
   background-color: #ffffff;
@@ -48,24 +49,12 @@ body {
   background: none;
   color: #01cbd2;
 }
-.h1 {
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 1.5rem;
-}
-.h1 > .mbr-iconfont {
-  font-size: 6.8rem;
-}
-.h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-}
-.h2 > .mbr-iconfont {
-  font-size: 3.2rem;
-}
 .subtext {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.3rem;
   margin-bottom: 0;
+  text-align: center;
+  color: #767676;
 }
 .subtext > .mbr-iconfont {
   font-size: 2.24rem;
@@ -74,47 +63,64 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
-  height: 100%;
-}
-
-.container {
-  max-width: 100%;
+  margin-bottom: 2rem;
+  height: 60%;
 }
 .store-google {
-  width: 100% !important;
+  width: 15rem !important;
 }
-
 .store-apple {
-  width: 88% !important;
+  width: 13rem !important;
 }
 
-@media screen and (max-width: 900px) and (max-height: 1200px){
+@media screen and (max-width: 900px) and (max-height: 1300px){
   .store-google {
-    width: 80% !important;
+    width: 60% !important;
   }
   .store-apple {
-    width: 70% !important;
+    width: 53% !important;
   }
   .text {
     margin-bottom: 5rem;
   }
+  .image {
+    height: 50%;
+    margin-bottom: 1rem;
+  }
+  .subtext {
+    font-size: 1.5rem;
+  }
 }
 
-@media screen and (max-height: 896px) {
+@media screen and (max-width: 700px) and (max-height: 1100px){
+  .text {
+    margin-bottom: 5rem;
+  }
+  .image {
+    height: 50%;
+  }
+  .subtext {
+    font-size: 1.5rem;
+  }
+  .store-google {
+    width: 40% !important;
+  }
+  .store-apple {
+    width: 40% !important;
+  }
+}
+
+@media screen and (max-height: 900px) {
   .text {
     margin: 0;
   }
-  .h1 {
-    margin-bottom: 2rem;
-  }
   .image {
-    height: 12rem;
+    height: 50%;
     margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
   .download {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
   .subtext {
     font-size: 1.2rem;
@@ -127,27 +133,13 @@ body {
   }
 }
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 750px) {
   .download {
-    margin-top: 2rem;
+    margin-top: 0;
   }
-  .h1 {
-    margin-bottom: 2rem;
-  }
-  .subtext {
-    font-size: 1.5rem;
-  }
-  .image {
+  .image{
     margin-top: 2rem;
     margin-bottom: 1rem;
-    height: 10rem;
-  }
-}
-
-@media screen and (max-height: 740px) {
-  .image{
-    margin-top: 4rem;
-    margin-bottom: 2rem;
   }
   .subtext {
     font-size: 1.1rem;
@@ -157,15 +149,18 @@ body {
 @media screen and (max-height: 600px) {
   .image {
     height: 8.5rem;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+  }
+  .download {
+    margin: 0;
+  }
+  .subtext {
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .h1 {
-    margin-bottom: 2rem;
-  }
   .store-google {
     width: 50% !important;
   }
