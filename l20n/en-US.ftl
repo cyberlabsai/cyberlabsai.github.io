@@ -9,6 +9,7 @@
 <CLCase3 "FACE RECOGNITION<br><br>">
 <CLCase4 "FINANCE<br><br>">
 <CLClients "Our Customers">
+<CLMedia "CyberLabs in the Media">
 <CLPartners "Our Partners">
 <CLContact "Get in touch">
 <CLEmail "contato@cyberlabs.ai">
