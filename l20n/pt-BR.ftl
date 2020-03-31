@@ -18,7 +18,8 @@
 <CLMenu2 "Reconhecimento Facial">
 <CLMenu3 "Saúde">
 <CLMenuAbout "Sobre nós">
-<FRTitle "Reconhecimento Facial">
+<CLMenuMedia "Mídia">
+<FRTitle "RECONHECIMENTO FACIAL">
 <FRSubtitle "Visão Computacional abrindo portas">
 <FRKnowMore "Saiba Mais">
 <FRText1 "A proposta da CyberLabs é desenvolver essa tecnologia de maneira responsável e entregar às pessoas o poder de decisão para serem ou não identificadas pelo sistema, sem ferir qualquer direito à privacidade.&nbsp;">
