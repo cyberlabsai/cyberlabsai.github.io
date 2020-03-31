@@ -52,6 +52,15 @@
 <SText4 "Enter your email address so that we can send you more information about I.A. and health">
 <SThanks "Thanks for the contact, we'll be back as soon as possible :)">
 <SButton "Submit">
+<MTitle "CYBERLABS IN THE MEDIA">
+<MButtonArticle "Read Article">
+<FTitle "Want to know us?">
+<FTalk "Let's talk!">
+<FName "Name">
+<FPhone "Phone">
+<FMessage "Message">
+<FThanks "Thanks for contacting us, we will get back to you as soon as possible :)">
+<FButton "Send">
 <KeyDescription "Use your phone to">
 <KeyDescription1 "Authenticate your identity">
 <KeyDescription2 "Verify presence">
