@@ -9,6 +9,7 @@
 <CLCase3 "RECONHECIMENTO FACIAL<br><br>">
 <CLCase4 "FINANÇAS<br><br>">
 <CLClients "Nossos Clientes">
+<CLMedia "CyberLabs na Mídia">
 <CLPartners "Nossos Parceiros">
 <CLContact "Entre em contato">
 <CLEmail "contato@cyberlabs.ai">
@@ -51,6 +52,15 @@
 <SText4 "Informe seu email para que possamos enviar mais informações sobre I.A. e saúde">
 <SThanks "Obrigado pelo contato, retornaremos o mais breve possível :)">
 <SButton "Enviar">
+<MTitle "CYBERLABS NA MÍDIA">
+<MButtonArticle "Ler artigo">
+<FTitle "Quer conhecer melhor a gente?">
+<FTalk "Vamos conversar!">
+<FName "Nome">
+<FPhone "Telefone">
+<FMessage "Messagem">
+<FThanks "Obrigado pelo contato, retornaremos o mais breve possível :)">
+<FButton "Enviar">
 <KeyDescription "Use seu celular para:">
 <KeyDescription1 "Autenticar sua identidade">
 <KeyDescription2 "Verificar presença">
