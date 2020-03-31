@@ -886,7 +886,7 @@
     },
     "AboutUs.html": {
       "settings": {
-        "title": "Sobre Nós",
+        "title": "Sobre nós",
         "meta_descr": "CyberLabs: Impulsionando a performance humana",
         "header_custom": "<meta property=\"og:title\" content=\"CyberLabs IA\" />\n<meta property=\"og:url\" content=\"https://cyberlabs.ai/\" />\n<meta property=\"og:description\" content=\"Impulsionando a performance humana\">\n<meta property=\"og:image\" content=\"./assets/images/perfil\"><link rel=\"localization\" href=\"./l20n/manifest.json\">\n<meta name=\"defaultLanguage\" content=\"en-US\">\n<meta name=\"availableLanguages\" content=\"en-US\">",
         "footer_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script src=\"assets/theme/js/alert.js\"></script>\n<script src=\"assets/theme/js/amplitude.js\"></script>\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-99384557-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-99384557-1');\n</script>\n\n  <script>\n    //track homepage views\n    logEvent(\"view homepage\");\n\n  </script>",

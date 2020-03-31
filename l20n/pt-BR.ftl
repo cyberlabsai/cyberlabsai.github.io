@@ -4,9 +4,6 @@
 <INSlogan "O analytics do mundo real">
 <INbutton "Teste aqui!">
 <CLCases "TRADUZINDO A INTELIGÊNCIA ARTIFICIAL PARA O MUNDO REAL">
-<CLCase1 "SAÚDE<br><br>">
-<CLCase2 "LOGÍSTICA<br><br>">
-<CLCase3 "RECONHECIMENTO FACIAL<br><br>">
 <CLCase4 "FINANÇAS<br><br>">
 <CLClients "Nossos Clientes">
 <CLPartners "Nossos Parceiros">
@@ -18,7 +15,8 @@
 <CLMenu2 "Reconhecimento Facial">
 <CLMenu3 "Saúde">
 <CLMenuAbout "Sobre nós">
-<FRTitle "Reconhecimento Facial">
+<CLMenuMedia "Mídia">
+<FRTitle "RECONHECIMENTO FACIAL">
 <FRSubtitle "Visão Computacional abrindo portas">
 <FRKnowMore "Saiba Mais">
 <FRText1 "A proposta da CyberLabs é desenvolver essa tecnologia de maneira responsável e entregar às pessoas o poder de decisão para serem ou não identificadas pelo sistema, sem ferir qualquer direito à privacidade.&nbsp;">

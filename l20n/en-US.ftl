@@ -18,6 +18,7 @@
 <CLMenu2 "Facial Recognition">
 <CLMenu3 "Health">
 <CLMenuAbout "About us">
+<CLMenuMedia "Media">
 <FRTitle "Face Recognition">
 <FRSubtitle "Computer Vision opening doors">
 <FRKnowMore "Know More">
