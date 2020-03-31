@@ -21,6 +21,7 @@
   <meta name="defaultLanguage" content="en-US">
   <meta name="availableLanguages" content="en-US">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="./css/inviteStyle.css" type="text/css">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js"></script>
 </head>
@@ -80,7 +81,7 @@
 <section class="download">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="card p-3 col-12 col-md-6 col-lg-3">
+            <div id="android-download" class="card p-3 col-12 col-md-6 col-lg-3">
                 <div class="card-img pb-3">
                     <a href="https://s3-sa-east-1.amazonaws.com/insight.cyberlabs.ai/now/download/InSightNowLite-Win32.zip">
                       <img class="store-google" src="assets/images/google-play-badge.png">
@@ -183,7 +184,10 @@
     function generateSchemaLink () {
       const ios = navigator.userAgent && /iPad|iPhone|iPod/.test(navigator.userAgent)
       console.log(ios)
-      if (!ios) return
+      if (!ios) {
+        const androidBadge = document.getElementById('android-download')
+        androidBadge.style = 'display: flex'
+      }
 
       const parsedLink = parseDeepLink(window.location.href)
       const schemaLink = document.getElementById('message-download')
