@@ -143,6 +143,51 @@
     function setUserProp(identifyObj) {
       amplitude.getInstance().identify(identifyObj);
     }
+
+    const parseDeepLink = (appURL) => {
+      if (!appURL) return { status: false, getParams: '', getPage: '' }
+      const pageFromURLIndex = 0
+      const regexpForParams = /[A-z]{1,}=[A-z0-9]{1,}/gi
+      const regexpForDomain = /[A-z]{1,}\?/g
+
+      const path = appURL.toString() || ''
+      const dataFromURL = path.match(regexpForParams)
+      const paramObj = generateObjectFromDataURL(dataFromURL)
+
+      const pageFromURL = regexpForDomain.exec(path)
+      const page = pageFromURL[pageFromURLIndex].split('?')[0] || ''
+
+      return {
+        status: true,
+        get getParams () {
+          return paramObj
+        },
+        get getPage () {
+          return page
+        }
+      }
+    }
+
+    const generateObjectFromDataURL = (dataFromURL) => {
+      if (!dataFromURL.length) return {}
+
+      return dataFromURL.reduce((acc, elm) => {
+        const key = 0
+        const value = 1
+        const splittedData = elm.split('=') || ''
+        acc[splittedData[key]] = splittedData[value]
+        return acc
+      }, {})
+    }
+
+    function generateSchemaLink() {
+      const parsedLink = parseDeepLink(window.location.href)
+
+      const schemaLink = document.getElementById('schema-link')
+      schemaLink.href = `keyapp://invite?d=${parsedLink.getParams.d}`
+    }
+
+    generateSchemaLink()
     //track page views
     logEvent("view clientpage");
   </script>
