@@ -69,8 +69,8 @@
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-10">
               <img class="image" src="assets/images/logo.jpg">
-              <p class="mbr-text mbr-fonts-style subtext">
-                 Você foi convidado para se tornar usuário do Key, selecione o seu tipo de dispositivo para fazer o download
+              <p id="message-download" class="mbr-text mbr-fonts-style subtext">
+                 Você foi convidado para se tornar usuário do Key, selecione o seu tipo de dispositivo para fazer o download.
               </p>
             </div>
         </div>
@@ -148,7 +148,7 @@
       if (!appURL) return { status: false, getParams: '', getPage: '' }
       const pageFromURLIndex = 0
       const regexpForParams = /[A-z]{1,}=[A-z0-9]{1,}/gi
-      const regexpForDomain = /[A-z]{1,}\?/g
+      const regexpForDomain = /[A-z]{1,}\/\?/g
 
       const path = appURL.toString() || ''
       const dataFromURL = path.match(regexpForParams)
@@ -180,11 +180,15 @@
       }, {})
     }
 
-    function generateSchemaLink() {
-      const parsedLink = parseDeepLink(window.location.href)
+    function generateSchemaLink () {
+      const ios = navigator.userAgent && /iPad|iPhone|iPod/.test(navigator.userAgent)
+      console.log(ios)
+      if (!ios) return
 
-      const schemaLink = document.getElementById('schema-link')
-      schemaLink.href = `keyapp://invite?d=${parsedLink.getParams.d}`
+      const parsedLink = parseDeepLink(window.location.href)
+      const schemaLink = document.getElementById('message-download')
+
+      schemaLink.innerHTML = schemaLink.innerHTML + `Se você já possuir o aplicativo, entre no portal clicando <a href="keyapp://invite?d=${parsedLink.getParams.d}"> aqui </a>`
     }
 
     generateSchemaLink()
